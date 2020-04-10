@@ -36,6 +36,7 @@ async def on_message(message):
         file = openpyxl.load_workbook("레벨.xlsx")
         sheet = file.active
         exp = [10, 50, 150, 350, 600, 950]
+        await message.channel.send("레벨이 오름.\n현재 레벨 : " + str(sheet["C" + str(i)].value) + "\n경험치 : " + str(sheet["B" + str(i)].value))
         i = 1
         while True:
             if sheet["A" + str(i)].value == str(message.author.id):
