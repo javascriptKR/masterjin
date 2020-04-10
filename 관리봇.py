@@ -35,7 +35,7 @@ async def on_message(message):
     if message.content.startswith("!레벨"):
         file = openpyxl.load_workbook("레벨.xlsx")
         sheet = file.active
-        exp = [10, 20, 30, 40, 50]
+        exp = [10, 50, 150, 350, 600, 950]
         i = 1
         while True:
             if sheet["A" + str(i)].value == str(message.author.id):
