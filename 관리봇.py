@@ -32,16 +32,16 @@ async def on_message(message):
             choose = await message.channel.send(vote[i])
             await message.add_reaction(choose, '👍')
 
-    if message.content.startswith("!레벨"):
+    if message.content.startswith("개꿀"):
         file = openpyxl.load_workbook("레벨.xlsx")
         sheet = file.active
-        exp = [10, 50, 150, 350, 600, 950]
-        await message.channel.send("레벨이 오름.\n현재 레벨 : " + str(sheet["C" + str(i)].value) + "\n경험치 : " + str(sheet["B" + str(i)].value))
+        exp = [10, 50, 150, 350, 600, 950, 1350, 1800, 2300, 2850, 3450, 4100]
         i = 1
         while True:
             if sheet["A" + str(i)].value == str(message.author.id):
                 sheet["B" + str(i)].value = sheet["B" + str(i)].value + 5
-                if sheet["B" + str(i)].value >= exp[sheet["C" + str(i)].value - 1]:
+                await message.channel.send("경험치 5 오름")
+                if sheet["B" + str(i)].value >= exp[sheet["C" + str(i)].value]:
                     sheet["C" + str(i)].value = sheet["C" + str(i)].value + 1
                     await message.channel.send("레벨이 오름.\n현재 레벨 : " + str(sheet["C" + str(i)].value) + "\n경험치 : " + str(sheet["B" + str(i)].value))
                 file.save("레벨.xlsx")
@@ -53,6 +53,8 @@ async def on_message(message):
                 sheet["C" + str(i)].value = 1
                 file.save("레벨.xlsx")
                 break
+
+            i += 1
 
             i += 1
 
