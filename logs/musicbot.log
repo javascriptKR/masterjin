@@ -1,0 +1,469 @@
+[29.971361160] 2020-05-10 16:43:32,562 - INFO - launcher: Starting sanity checks
+[30.968189240] 2020-05-10 16:43:32,563 - INFO - launcher: Checking for Python 3.5+
+[30.968189240] 2020-05-10 16:43:32,563 - INFO - launcher: Checking console encoding
+[30.968189240] 2020-05-10 16:43:32,563 - INFO - launcher: Setting console encoding to UTF-8
+[30.968189240] 2020-05-10 16:43:32,563 - INFO - launcher: Ensuring we're in the right environment
+[31.965494156] 2020-05-10 16:43:32,564 - INFO - launcher: Adding local bins/ folder to path
+[758.457899094] 2020-05-10 16:43:33,290 - INFO - launcher: Required checks passed.
+[758.457899094] 2020-05-10 16:43:33,290 - INFO - launcher: Optional checks passed.
+[759.426355362] 2020-05-10 16:43:33,291 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.3877637386322021] 2020-05-10 16:43:33,920 - WARNING - musicbot.config | In config.py::MainThread(13364), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1.3887839317321777] 2020-05-10 16:43:33,921 - INFO - musicbot.config | In config.py::MainThread(13364), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.3897821903228760] 2020-05-10 16:43:33,922 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 225 in _setup_logging: Set logging level to INFO
+[1.3907790184020996] 2020-05-10 16:43:33,923 - DEBUG - musicbot.json | In json.py::MainThread(13364), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.4186813831329346] 2020-05-10 16:43:33,951 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[1.4186813831329346] 2020-05-10 16:43:33,951 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[4.5068132877349854] 2020-05-10 16:43:37,039 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 951 in on_ready: Connection established, ready to go.
+[4.5068132877349854] 2020-05-10 16:43:37,039 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 342 in _cache_app_info: Caching app info
+[4.7634813785552979] 2020-05-10 16:43:37,295 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.7644829750061035] 2020-05-10 16:43:37,296 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 789 in _scheck_server_permissions: Checking server permissions
+[4.7644829750061035] 2020-05-10 16:43:37,296 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.7644829750061035] 2020-05-10 16:43:37,296 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 797 in _scheck_configs: Validating config
+[4.7654519081115723] 2020-05-10 16:43:37,297 - DEBUG - musicbot.config | In config.py::MainThread(13364), line 236 in async_validate: Validating options...
+[4.7654519081115723] 2020-05-10 16:43:37,297 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 800 in _scheck_configs: Validating permissions config
+[4.7654519081115723] 2020-05-10 16:43:37,297 - DEBUG - musicbot.permissions | In permissions.py::MainThread(13364), line 94 in async_validate: Validating permissions...
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 968 in on_ready: Connected: 684731981250297859/관리인#7087
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 976 in on_ready: Owner:     400661573754159114/신성민#5036
+
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 979 in on_ready: Guild List:
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 983 in on_ready:  - 심심한 서버
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 1039 in on_ready: Not bound to any text channels
+[4.7654519081115723] 2020-05-10 16:43:37,297 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 1052 in on_ready: Autojoining voice channels:
+[4.7664482593536377] 2020-05-10 16:43:37,298 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 1053 in <listcomp>:  - 심심한 서버/일반
+[4.7664482593536377] 2020-05-10 16:43:37,298 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 281 in _join_startup_channels: Attempting to join 심심한 서버/일반
+[5.3639552593231201] 2020-05-10 16:43:37,896 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 733 in deserialize_queue: Deserializing queue for 681451559753613327
+[5.5778810977935791] 2020-05-10 16:43:38,110 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 425 in get_player: Created player via deserialization for guild 681451559753613327 with 0 entries
+[5.5788786411285400] 2020-05-10 16:43:38,111 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 297 in _join_startup_channels: Joined 심심한 서버/일반
+[5.5788786411285400] 2020-05-10 16:43:38,111 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[12.8507077693939209] 2020-05-10 16:43:45,383 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 개구리
+[109.9033422470092773] 2020-05-10 16:43:45,388 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 개구리
+[109.9043395519256592] 2020-05-10 16:43:45,389 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[15.3235547542572021] 2020-05-10 16:43:47,855 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:개구리', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '개구리', 'webpage_url_basename': '개구리', 'extractor_key': 'Generic'}
+[18.3114137649536133] 2020-05-10 16:43:50,843 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[18.3124408721923828] 2020-05-10 16:43:50,844 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[18.3124408721923828] 2020-05-10 16:43:50,844 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[18.3134219646453857] 2020-05-10 16:43:50,845 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=C38bR6gibi8
+[19.3504874706268311] 2020-05-10 16:43:51,882 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=C38bR6gibi8
+[20.3058226108551025] 2020-05-10 16:43:52,838 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for audio_cache\youtube-C38bR6gibi8-001.webm
+[20.3058226108551025] 2020-05-10 16:43:52,838 - FFMPEG - musicbot.player | In player.py::MainThread(13364), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-C38bR6gibi8-001.webm
+[20.5717053413391113] 2020-05-10 16:43:53,104 - DEBUG - musicbot.player | In player.py::MainThread(13364), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000153C3EF7390> using <discord.voice_client.VoiceClient object at 0x00000153C3E66128>
+[20.5727033615112305] 2020-05-10 16:43:53,105 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 460 in on_player_play: Running on_player_play
+[20.5727033615112305] 2020-05-10 16:43:53,105 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[30.8126499652862549] 2020-05-10 16:44:03,345 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !skip
+[127.8871912956237793] 2020-05-10 16:44:03,371 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !skip
+[127.8881900310516357] 2020-05-10 16:44:03,372 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in skip: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[31.0864448547363281] 2020-05-10 16:44:03,618 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[31.4163031578063965] 2020-05-10 16:44:03,948 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[31.4172711372375488] 2020-05-10 16:44:03,949 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[73.1525597572326660] 2020-05-10 16:44:45,684 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아로하
+[170.2053389549255371] 2020-05-10 16:44:45,690 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아로하
+[170.2063629627227783] 2020-05-10 16:44:45,691 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[75.8703308105468750] 2020-05-10 16:44:48,402 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:아로하', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '아로하', 'webpage_url_basename': '아로하', 'extractor_key': 'Generic'}
+[79.2375235557556152] 2020-05-10 16:44:51,769 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[79.2385449409484863] 2020-05-10 16:44:51,770 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[79.2385449409484863] 2020-05-10 16:44:51,770 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[79.2395179271697998] 2020-05-10 16:44:51,771 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[81.2259848117828369] 2020-05-10 16:44:53,758 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[81.2259848117828369] 2020-05-10 16:44:53,758 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[82.2195906639099121] 2020-05-10 16:44:54,751 - WARNING - musicbot.player | In player.py::MainThread(13364), line 274 in _play: Failed to get entry, retrying
+Traceback (most recent call last):
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1926, in process_info
+    success = dl(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1865, in dl
+    return fd.download(name, info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 341, in real_download
+    establish_connection()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 109, in establish_connection
+    ctx.data = self.ydl.urlopen(request)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 2238, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 297, in _really_download
+    result = await self.playlist.downloader.extract_info(self.playlist.loop, self.url, download=True)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 808, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 863, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1644, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1928, in process_info
+    self.report_error('unable to download video data: %s' % error_to_compat_str(err))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 625, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 595, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\player.py", line 272, in _play
+    entry = await self.playlist.get_next_entry()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\playlist.py", line 334, in get_next_entry
+    return await entry.get_ready_future()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 217, in _download
+    await self._really_download()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 300, in _really_download
+    raise ExtractionError(e)
+musicbot.exceptions.ExtractionError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+[82.3223717212677002] 2020-05-10 16:44:54,854 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[124.7259833812713623] 2020-05-10 16:45:37,258 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아로하
+[221.7786176204681396] 2020-05-10 16:45:37,263 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아로하
+[221.7796444892883301] 2020-05-10 16:45:37,264 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[126.6598737239837646] 2020-05-10 16:45:39,192 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:아로하', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '아로하', 'webpage_url_basename': '아로하', 'extractor_key': 'Generic'}
+[130.2117588520050049] 2020-05-10 16:45:42,744 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[130.2127857208251953] 2020-05-10 16:45:42,745 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[130.2127857208251953] 2020-05-10 16:45:42,745 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[130.2137682437896729] 2020-05-10 16:45:42,746 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[132.2192800045013428] 2020-05-10 16:45:44,751 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[132.2192800045013428] 2020-05-10 16:45:44,751 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[133.0895886421203613] 2020-05-10 16:45:45,621 - WARNING - musicbot.player | In player.py::MainThread(13364), line 274 in _play: Failed to get entry, retrying
+Traceback (most recent call last):
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1926, in process_info
+    success = dl(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1865, in dl
+    return fd.download(name, info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 341, in real_download
+    establish_connection()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 109, in establish_connection
+    ctx.data = self.ydl.urlopen(request)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 2238, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 297, in _really_download
+    result = await self.playlist.downloader.extract_info(self.playlist.loop, self.url, download=True)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 808, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 863, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1644, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1928, in process_info
+    self.report_error('unable to download video data: %s' % error_to_compat_str(err))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 625, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 595, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\player.py", line 272, in _play
+    entry = await self.playlist.get_next_entry()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\playlist.py", line 334, in get_next_entry
+    return await entry.get_ready_future()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 217, in _download
+    await self._really_download()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 300, in _really_download
+    raise ExtractionError(e)
+musicbot.exceptions.ExtractionError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+[133.1924138069152832] 2020-05-10 16:45:45,724 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[142.6620817184448242] 2020-05-10 16:45:55,194 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 조정석 - 아로하
+[239.7136938571929932] 2020-05-10 16:45:55,198 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 조정석 - 아로하
+[239.7136938571929932] 2020-05-10 16:45:55,198 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[144.6623606681823730] 2020-05-10 16:45:57,194 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:조정석 - 아로하', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '조정석 - 아로하', 'webpage_url_basename': '조정석 - 아로하', 'extractor_key': 'Generic'}
+[148.3133530616760254] 2020-05-10 16:46:00,845 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[148.3133530616760254] 2020-05-10 16:46:00,845 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[148.3143510818481445] 2020-05-10 16:46:00,846 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[148.3153481483459473] 2020-05-10 16:46:00,847 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[150.3097741603851318] 2020-05-10 16:46:02,842 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[150.3097741603851318] 2020-05-10 16:46:02,842 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=g8oRKbYrZ6Q
+[151.1960754394531250] 2020-05-10 16:46:03,728 - WARNING - musicbot.player | In player.py::MainThread(13364), line 274 in _play: Failed to get entry, retrying
+Traceback (most recent call last):
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1926, in process_info
+    success = dl(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1865, in dl
+    return fd.download(name, info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\common.py", line 366, in download
+    return self.real_download(filename, info_dict)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 341, in real_download
+    establish_connection()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\downloader\http.py", line 109, in establish_connection
+    ctx.data = self.ydl.urlopen(request)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 2238, in urlopen
+    return self._opener.open(req, timeout=self._socket_timeout)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 297, in _really_download
+    result = await self.playlist.downloader.extract_info(self.playlist.loop, self.url, download=True)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\downloader.py", line 84, in extract_info
+    return await loop.run_in_executor(self.thread_pool, functools.partial(self.unsafe_ytdl.extract_info, *args, **kwargs))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 808, in extract_info
+    return self.process_ie_result(ie_result, download, extra_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 863, in process_ie_result
+    return self.process_video_result(ie_result, download=download)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1644, in process_video_result
+    self.process_info(new_info)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 1928, in process_info
+    self.report_error('unable to download video data: %s' % error_to_compat_str(err))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 625, in report_error
+    self.trouble(error_message, tb)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\youtube_dl\YoutubeDL.py", line 595, in trouble
+    raise DownloadError(message, exc_info)
+youtube_dl.utils.DownloadError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\player.py", line 272, in _play
+    entry = await self.playlist.get_next_entry()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\playlist.py", line 334, in get_next_entry
+    return await entry.get_ready_future()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 217, in _download
+    await self._really_download()
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\entry.py", line 300, in _really_download
+    raise ExtractionError(e)
+musicbot.exceptions.ExtractionError: ERROR: unable to download video data: HTTP Error 403: Forbidden
+[151.2979211807250977] 2020-05-10 16:46:03,830 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[160.0978424549102783] 2020-05-10 16:46:12,630 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아무노래
+[257.1504766941070557] 2020-05-10 16:46:12,635 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아무노래
+[257.1504766941070557] 2020-05-10 16:46:12,635 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[162.0946545600891113] 2020-05-10 16:46:14,627 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:아무노래', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '아무노래', 'webpage_url_basename': '아무노래', 'extractor_key': 'Generic'}
+[165.8148109912872314] 2020-05-10 16:46:18,347 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[165.8158082962036133] 2020-05-10 16:46:18,348 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[165.8158082962036133] 2020-05-10 16:46:18,348 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[165.8168060779571533] 2020-05-10 16:46:18,349 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=UuV2BmJ1p_I
+[166.9436061382293701] 2020-05-10 16:46:19,476 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=UuV2BmJ1p_I
+[167.8125407695770264] 2020-05-10 16:46:20,344 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[167.8125407695770264] 2020-05-10 16:46:20,344 - FFMPEG - musicbot.player | In player.py::MainThread(13364), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[167.8174383640289307] 2020-05-10 16:46:20,349 - DEBUG - musicbot.player | In player.py::MainThread(13364), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000153C53ABAC8> using <discord.voice_client.VoiceClient object at 0x00000153C3E66128>
+[167.8184380531311035] 2020-05-10 16:46:20,350 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 460 in on_player_play: Running on_player_play
+[167.8184380531311035] 2020-05-10 16:46:20,350 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[415.1195578575134277] 2020-05-10 16:50:27,651 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[415.5274858474731445] 2020-05-10 16:50:28,059 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[415.5284831523895264] 2020-05-10 16:50:28,060 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 532 in on_player_stop: Running on_player_stop
+[904.6308777332305908] 2020-05-10 16:58:37,163 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아무노래
+[1001.6835119724273682] 2020-05-10 16:58:37,168 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !play 아무노래
+[1001.6845102310180664] 2020-05-10 16:58:37,169 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[906.8856792449951172] 2020-05-10 16:58:39,418 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:아무노래', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '아무노래', 'webpage_url_basename': '아무노래', 'extractor_key': 'Generic'}
+[910.8258225917816162] 2020-05-10 16:58:43,358 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[910.8268203735351562] 2020-05-10 16:58:43,359 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[910.8268203735351562] 2020-05-10 16:58:43,359 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[910.8288147449493408] 2020-05-10 16:58:43,361 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 207 in _download: Download cached: https://www.youtube.com/watch?v=UuV2BmJ1p_I
+[1009.7583708763122559] 2020-05-10 16:58:45,243 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !p 아무노래
+[1009.7583708763122559] 2020-05-10 16:58:45,243 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[912.7127432823181152] 2020-05-10 16:58:45,245 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !p 아무노래
+[912.8245193958282471] 2020-05-10 16:58:45,356 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[912.8245193958282471] 2020-05-10 16:58:45,356 - FFMPEG - musicbot.player | In player.py::MainThread(13364), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[912.8294405937194824] 2020-05-10 16:58:45,361 - DEBUG - musicbot.player | In player.py::MainThread(13364), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000153C41F9978> using <discord.voice_client.VoiceClient object at 0x00000153C3E66128>
+[912.8304111957550049] 2020-05-10 16:58:45,362 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 460 in on_player_play: Running on_player_play
+[912.8304111957550049] 2020-05-10 16:58:45,362 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[914.8128149509429932] 2020-05-10 16:58:47,345 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:아무노래', 'ie_key': None, 'extractor': 'generic', 'webpage_url': '아무노래', 'webpage_url_basename': '아무노래', 'extractor_key': 'Generic'}
+[918.4996819496154785] 2020-05-10 16:58:51,032 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for None
+[918.5017049312591553] 2020-05-10 16:58:51,034 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 624 in on_player_entry_added: Running on_player_entry_added
+[918.5017049312591553] 2020-05-10 16:58:51,034 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[918.5026726722717285] 2020-05-10 16:58:51,035 - INFO - musicbot.entry | In entry.py::MainThread(13364), line 207 in _download: Download cached: https://www.youtube.com/watch?v=UuV2BmJ1p_I
+[922.5226767063140869] 2020-05-10 16:58:55,055 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 2706 in on_message: 400661573754159114/신성민#5036: !q
+[1019.5753448009490967] 2020-05-10 16:58:55,060 - INFO - musicbot.bot | In bot.py::MainThread(18348), line 2706 in on_message: 400661573754159114/신성민#5036: !q
+[1019.5753448009490967] 2020-05-10 16:58:55,060 - ERROR - musicbot.bot | In bot.py::MainThread(18348), line 2835 in on_message: Error in queue: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 2734, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\sssm0\Desktop\디코봇만들기\뮤직 봇\MusicBot\musicbot\bot.py", line 433, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[1160.1307814121246338] 2020-05-10 17:02:52,663 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1160.4369554519653320] 2020-05-10 17:02:52,969 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[1160.4389505386352539] 2020-05-10 17:02:52,971 - DEBUG - musicbot.entry | In entry.py::MainThread(13364), line 56 in get_ready_future: Created future for audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[1160.4389505386352539] 2020-05-10 17:02:52,971 - FFMPEG - musicbot.player | In player.py::MainThread(13364), line 293 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-UuV2BmJ1p_I-MV_ZICO_Any_song.webm
+[1160.4459319114685059] 2020-05-10 17:02:52,978 - DEBUG - musicbot.player | In player.py::MainThread(13364), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x00000153C42BFC50> using <discord.voice_client.VoiceClient object at 0x00000153C3E66128>
+[1160.4469289779663086] 2020-05-10 17:02:52,979 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 460 in on_player_play: Running on_player_play
+[1160.4469289779663086] 2020-05-10 17:02:52,979 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 709 in serialize_queue: Serializing queue for 681451559753613327
+[1222.6224420070648193] 2020-05-10 17:03:55,154 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[1320.606410742] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\gateway.py", line 468, in poll_event
+    msg = await self.recv()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\protocol.py", line 350, in recv
+    yield from self.ensure_open()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\protocol.py", line 512, in ensure_open
+    self.close_code, self.close_reason) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 4004 (private use), reason = Authentication failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 373, in main
+    m.run()
+  File "C:\Users\sssm0\Desktop\���ں������\���� ��\MusicBot\musicbot\bot.py", line 902, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 543, in start
+    await self.connect(reconnect=reconnect)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 457, in connect
+    await self._connect()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 421, in _connect
+    await self.ws.poll_event()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\gateway.py", line 476, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: WebSocket connection is closed: code = 4004 (private use), reason = Authentication failed.
+[1320.610372305] launcher-INFO: Restarting in 2 seconds...
+[1223.591714859] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\gateway.py", line 468, in poll_event
+    msg = await self.recv()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\protocol.py", line 350, in recv
+    yield from self.ensure_open()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\protocol.py", line 512, in ensure_open
+    self.close_code, self.close_reason) from self.transfer_data_exc
+websockets.exceptions.ConnectionClosed: WebSocket connection is closed: code = 4004 (private use), reason = Authentication failed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "run.py", line 373, in main
+    m.run()
+  File "C:\Users\sssm0\Desktop\���ں������\���� ��\MusicBot\musicbot\bot.py", line 902, in run
+    self.loop.run_until_complete(self.start(*self.config.auth))
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 584, in run_until_complete
+    return future.result()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 543, in start
+    await self.connect(reconnect=reconnect)
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 457, in connect
+    await self._connect()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\client.py", line 421, in _connect
+    await self.ws.poll_event()
+  File "C:\Users\sssm0\AppData\Local\Programs\Python\Python37\lib\site-packages\discord\gateway.py", line 476, in poll_event
+    raise ConnectionClosed(exc, shard_id=self.shard_id) from exc
+discord.errors.ConnectionClosed: WebSocket connection is closed: code = 4004 (private use), reason = Authentication failed.
+[1223.594707251] launcher-INFO: Restarting in 2 seconds...
+[1322.610403299] launcher-ERROR: Error starting bot
+Traceback (most recent call last):
+  File "run.py", line 368, in main
+    m = MusicBot()
+  File "C:\Users\sssm0\Desktop\���ں������\���� ��\MusicBot\musicbot\bot.py", line 57, in __init__
+    print()
+  File "C:\Users\sssm0\AppData\Roaming\Python\Python37\site-packages\colorama\ansitowin32.py", line 41, in write
+    self.__convertor.write(text)
+  File "C:\Users\sssm0\AppData\Roaming\Python\Python37\site-packages\colorama\ansitowin32.py", line 162, in write
+    self.write_and_convert(text)
+  File "C:\Users\sssm0\AppData\Roaming\Python\Python37\site-packages\colorama\ansitowin32.py", line 190, in write_and_convert
+    self.write_plain_text(text, cursor, len(text))
+  File "C:\Users\sssm0\AppData\Roaming\Python\Python37\site-packages\colorama\ansitowin32.py", line 195, in write_plain_text
+    self.wrapped.write(text[start:end])
+OSError: [Errno 22] Invalid argument
+[1225.5976917743682861] 2020-05-10 17:03:58,130 - WARNING - musicbot.config | In config.py::MainThread(13364), line 121 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[1225.5986914634704590] 2020-05-10 17:03:58,131 - INFO - musicbot.config | In config.py::MainThread(13364), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1225.5996587276458740] 2020-05-10 17:03:58,132 - DEBUG - musicbot.bot | In bot.py::MainThread(13364), line 190 in _setup_logging: Skipping logger setup, already set up
+[1225.6016521453857422] 2020-05-10 17:03:58,134 - DEBUG - musicbot.json | In json.py::MainThread(13364), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1225.6315724849700928] 2020-05-10 17:03:58,163 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 90 in __init__: Starting MusicBot release-260819-4-gf7d0d74
+[1225.6315724849700928] 2020-05-10 17:03:58,163 - INFO - musicbot.bot | In bot.py::MainThread(13364), line 96 in __init__: Loaded autoplaylist with 2531 entries
+[1225.887010098] launcher-INFO: 
+An error has occured:
+  Problem:
+    Bot cannot login, bad credentials.
+
+  Solution:
+    Fix your token in the options file.  Remember that each field should be on
+    their own line.
+
+
+[1225.887010098] launcher-INFO: All done.
